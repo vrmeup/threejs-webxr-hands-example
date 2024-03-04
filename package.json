@@ -1,0 +1,15 @@
+{
+  "name": "threejs-webxr-hands-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "http-server -o",
+    "serve-ssl": "http-server -S -C cert.pem"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
