@@ -6,6 +6,7 @@ Simple example of hand tracking and gesture recognition using Three.js and WebXR
 For more information on this example example, including a video walkthought.
 - [YouTube](https://youtu.be/0ZhgLJK67vw)
 - [WebSite](https://vrmeup.com/devlog/devlog_12_webxr_hands_and_gestures.html)
+- [Demo](https://vrmeup.com/demo/threejs-webxr-hands-example/)
 
 ## Running in HTTP mode
 
@@ -40,6 +41,17 @@ Available on:
   http://127.0.0.1:8080
   http://192.168.240.1:8080
 ```
+
+## Issues
+
+### Wolvic
+
+The standard [Wolvic](https://www.wolvic.com/en/) (1.7.0) Gecko based browser does not currently [as at Sept 2024] fully support WebXR hand tracking. The location of the hand appeared to work, but not the fingers, etc. Sideload the Chromium Based version and the hand tracking should work [tested on version 0.9.1].  
+
+- https://www.uploadvr.com/wolvic-switching-to-chromium/
+- https://wolvic.com/dl/
+
+> The current Chromium Based version (0.9.1) does not appear to fully support self signed HTTPS certificates (which are required for WebXR VR) and just shows a blank browser window. Try the [Demo](https://vrmeup.com/demo/threejs-webxr-hands-example/) with a signed HTTPS certificate to make sure.
 
 ## References
 
