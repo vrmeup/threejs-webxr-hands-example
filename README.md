@@ -4,8 +4,8 @@ Simple example of hand tracking and gesture recognition using Three.js and WebXR
 > This example uses [NodeJS](https://nodejs.org/) and [http-server](https://www.npmjs.com/package/http-server)
 
 For more information on this example example, including a video walkthought.
-- YoutTube : [Hand and Gesture detection in WebXR VR and Three.js](https://youtu.be/0ZhgLJK67vw)
-- WebSite : [Hand and Gesture detection in WebXR VR and Three.js](https://vrmeup.com/devlog/devlog_12_webxr_hands_and_gestures.htm)
+- [YouTube](https://youtu.be/0ZhgLJK67vw)
+- [WebSite](https://vrmeup.com/devlog/devlog_12_webxr_hands_and_gestures.html)
 
 ## Running in HTTP mode
 
