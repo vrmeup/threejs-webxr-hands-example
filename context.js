@@ -2,7 +2,7 @@ import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { VRButton } from 'three/addons/webxr/VRButton.js';
 import { Reflector } from 'three/addons/objects/Reflector.js'
-import Stats from 'three/addons/libs/stats.module'
+import Stats from 'three/addons/libs/stats.module.js'
 import { XrInput } from './xrInput.js'
 
 /**

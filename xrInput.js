@@ -1,7 +1,7 @@
 "use strict";
 
 import * as THREE from 'three';
-import { XRControllerModelFactory } from 'three/addons/webxr/XRControllerModelFactory';
+import { XRControllerModelFactory } from 'three/addons/webxr/XRControllerModelFactory.js';
 import { XRHandModelFactory } from 'three/addons/webxr/XRHandModelFactory.js';
 import { XrMechanicalControllerInput } from './xrMechanicalControllerInput.js' ;
 import { XrHandControllerInput } from './xrHandControllerInput.js' ;
