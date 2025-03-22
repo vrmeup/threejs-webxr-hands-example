@@ -41,7 +41,10 @@ export class Context {
         document.body.appendChild(this.stats.dom)
 
         // VR 
-        document.body.appendChild( VRButton.createButton( this.renderer ) );
+        const sessionInit = {
+            requiredFeatures: [ 'hand-tracking' ]
+        };
+        document.body.appendChild( VRButton.createButton( this.renderer, sessionInit ) );
         this.renderer.xr.enabled = true;
         this.xrInput = new XrInput(this) ;
 
